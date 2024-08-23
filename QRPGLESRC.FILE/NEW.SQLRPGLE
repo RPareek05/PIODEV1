@@ -4,3 +4,10 @@ dcl-c quote '''';
 dcl-s loopcount packed(4 0);
 dsply 'hello Github';
 *inlr = *main;
+
+dcl-proc;
+ dcl-pi *n;
+ end-pi;
+ dsply 'hello';
+ return;
+ end proc;
